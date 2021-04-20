@@ -1,7 +1,7 @@
 import axios from 'axios'
 import store from './store'
 import router from './router'
-axios.defaults.baseURL='http://10.181.172.62:8000'
+axios.defaults.baseURL='http://localhost:8000'
 axios.defaults.withCredentials=true
 axios.interceptors.response.use(
     res=>{
